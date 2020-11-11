@@ -5,6 +5,8 @@
  */
 package startdev;
 
+import java.util.Random;
+
 /**
  *
  * @author user
@@ -13,8 +15,13 @@ public class Task5 {
     public void run(){
         System.out.println("----- Задача 5 ------");
         System.out.println("Создаем ДВУХМЕРНЫЙ массив  из 10х5 ячеек типа int, \nзаполняем его случайными числами и выводим \nего значения в цикле");
-        int myArr[][] = ;
-        for(){
+        int myArr[][] = new int[10][5];
+        
+        Random random = new Random();
+        for(int i = 0; i < myArr.length; i++){
+            myArr[i]= random.nextInt(9-0+1)-0;          
+        }
+        
             for(){
                 
             }
